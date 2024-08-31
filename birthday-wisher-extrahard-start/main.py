@@ -39,8 +39,8 @@ for birthday in birthday_dic:
         letter_to_send = random.choice(birthday_letters)
 
         # Send them an email
-        my_email = "greenpytest@gmail.com"
-        password = "dgrj anoe uskg ulna"
+        my_email = "senderemailhere@gmail.com"
+        password = "app password here"
 
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
